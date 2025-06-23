@@ -16,9 +16,9 @@ const Contact = () => {
     e.preventDefault();
 
     // EmailJS configuration
-    const serviceID = 'YOUR_SERVICE_ID'; // Replace with your EmailJS Service ID
-    const templateID = 'YOUR_TEMPLATE_ID'; // Replace with your EmailJS Template ID
-    const userID = 'YOUR_USER_ID'; // Replace with your EmailJS User ID
+    const serviceID = 'service_78kh4gj'; // Replace with your EmailJS Service ID
+    const templateID = 'template_97g1kow'; // Replace with your EmailJS Template ID
+    const userID = ' aH35bEjWepzN1CU2e'; // Replace with your EmailJS User ID
 
     emailjs.send(serviceID, templateID, {
       name: formData.name,
