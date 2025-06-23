@@ -1,0 +1,92 @@
+.resume {
+  padding: 5rem 2rem;
+  background: #0a0a0a;
+  text-align: center;
+}
+
+.resume-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.resume-section {
+  background: rgba(20, 20, 20, 0.8);
+  border: 1px solid #ffd700;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+}
+
+.resume-section h3 {
+  font-family: 'Orbitron', sans-serif;
+  color: #00ff88;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.resume-section p {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.resume-download {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: #00d4ff;
+  color: #0a0a0a;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 2rem;
+  transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.resume-download:hover {
+  background: #ffd700;
+  box-shadow: 0 0 20px #ffd700;
+  transform: translateY(-2px); /* Subtle lift on hover */
+}
+
+@media (max-width: 768px) {
+  .resume {
+    padding: 3rem 1rem;
+  }
+
+  .resume-section {
+    padding: 1.5rem;
+  }
+
+  .resume-section h3 {
+    font-size: 1.5rem;
+  }
+
+  .resume-section p {
+    font-size: 1rem;
+  }
+
+  .resume-download {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .resume-section {
+    padding: 1rem;
+  }
+
+  .resume-section h3 {
+    font-size: 1.3rem;
+  }
+
+  .resume-section p {
+    font-size: 0.9rem;
+  }
+
+  .resume-download {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}

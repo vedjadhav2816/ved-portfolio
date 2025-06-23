@@ -1,0 +1,14 @@
+.footer {
+  padding: 2rem;
+  background: rgba(10, 10, 10, 0.9);
+  text-align: center;
+  border-top: 1px solid #00d4ff;
+  box-shadow: 0 -5px 20px rgba(0, 212, 255, 0.3);
+}
+
+.footer p {
+  color: #ffd700;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1rem;
+  text-shadow: 0 0 10px #ffd700;
+}

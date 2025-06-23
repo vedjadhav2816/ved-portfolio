@@ -1,0 +1,39 @@
+.scroll-indicator {
+  position: fixed;
+  top: 0;
+  right: 10px;
+  height: 100vh;
+  width: 2px;
+  z-index: 100;
+}
+
+.scroll-line {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #00d4ff, #00ff88, #ffd700);
+  opacity: 0.5;
+  box-shadow: 0 0 15px #00d4ff, 0 0 25px #00ff88;
+}
+
+.scroll-orb {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #00ff88;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0 20px #00ff88, 0 0 30px #00d4ff;
+}
+
+@media (max-width: 768px) {
+  .scroll-indicator {
+    right: 5px;
+    width: 1px;
+  }
+
+  .scroll-orb {
+    width: 10px;
+    height: 10px;
+  }
+}
